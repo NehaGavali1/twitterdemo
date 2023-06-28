@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/*@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");*/
 
 /*.App {*/
 /*  text-align: center;*/
@@ -39,11 +40,288 @@
 /*  }*/
 /*}*/
 
-.container{
-  border:2px solid black;
+.container ,.row{
+
 }
-.row{}
-#twitter,#house{
+.App-logo{
+  width:40px;
+  height:40px;
+  margin:5px;
+
+}
+
+.App-logo:hover{
+  width:40px;
+  height:40px;
+  opacity: 1.0;
+  border-radius:50%;
+  box-shadow:  rgba(33,33,33,.2);
+  cursor:pointer;
+
+}
+#for{
+
+  text-align:justify;
+  margin:auto;
+  color:black;
+  margin-left:100px;
+}
+
+
+#following:{
+  text-align:center;
+  margin-right:200px;
+  color:black;
+}
+
+
+input[type="text"], input[type="password"], textarea {
+  border: none;
+  outline: none;
+  display:inline;
+  color:grey;
+  font-size:20px ;
+  /* border-bottom: 1px solid #ccc;*/ /* You can adjust the color and thickness of the outline */
+}
+#hover:hover{
+  background-color: lightgrey;
+  opacity:0.5;
+}
+
+.account,.flipkart{
+  display:inline;
+  height:50px;
+  width:50px;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+li .account:hover{
+border-radius: 100%;
+  background: rgb(194, 191, 191);
+  opacity: 0.2;
+  box-shadow:  rgba(33,33,33,.2);
+
+}
+.tweets{
+  height:70px;
+  width:70px;
+  margin-top:10px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+
+ul li img{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  padding:5px;
+  /*border:1px solid grey;*/
+
+}
+
+ul li img :hover{
+  background-color:grey;
+}
+/*.comment{*/
+/*  display: inline;*/
+/*  width:10px;*/
+/*  height:10px;*/
+/*}*/
+
+
+
+.span1{color:lightgrey;
+  font-size: larger;}
+
+
+
+.icon {
+  display:inline;
+  color: #21a7d2;
+  text-align:justify;
+  margin-left: 45px;
+  padding:5px;
+  font-weight:bold;
+  font-size: 20px;
+
+}
+#image{
+  padding:10px;
+}
+#image:hover{
+  border-radius: 100%;
+  color:#21a7d2;
+  opacity: 0.8;
+  background-color: #c1f5f2;
+}
+
+.icon1  {
+  margin-left:50px;
+  margin-right:50px;
+  padding:20px;
+  display:inline;
+  color:slategrey;
+}
+#chat:hover{
+  border-radius: 100%;
+  color:#21a7d2;
+  opacity: 0.8;
+background-color: #c1f5f2;
+}
+#retweet:hover{
+  border-radius: 100%;
+  color: #1ba26e;
+  opacity: 0.8;
+  background-color: #79c4a7;
+}
+#heart:hover{
+  border-radius: 100%;
+  color: #a91050;
+  opacity: 0.8;
+  background-color: #ea7aa9;
+}
+#view:hover{
+  border-radius: 100%;
+  color:#21a7d2;
+  opacity: 0.8;
+  background-color: #c1f5f2;
+}
+#share:hover{
+  border-radius: 100%;
+  color:#21a7d2;
+  opacity: 0.8;
+  background-color: #c1f5f2;
+}
+.dot{
+  /*display: inline;*/
+  /*position:relative;*/
+  /*right:-530px;*/
+  /*top:-30px;*/
+  float:right;
+  /*font-size:20px;*/
+  font-weight: bolder;
+
+}
+.dot:hover{
+  border-radius: 100%;
+  color:#21a7d2;
+  opacity: 0.8;
+  /*background-color: #c1f5f2;*/
+}
+#inline{
+  display:inline-block;
+}
+
+.gif {
+  width: 20px;
+  height:20px;
+  margin-top:-2px;
+}
+.picture {
+  width: 60px;
+  height:20px;
+  margin-top:-2px;
+}
+
+#button{
+  /*display: inline;*/
+  position:absolute;
+  opacity: 0.5;
+  margin-left:180px;
+  float:right;
+  margin-top:-5px;
+  padding-left:10px;
+  padding-right: 10px;
+
+}
+
+
+.text_comment{
+  color:grey;
+  display:inline-block;
+}
+
+.highlight{color: #21a7d2;
+}
+
+.flipkart {
   width:50px;
   height:50px;
+  float: left;
+  margin:10px
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+
+
+}
+#select:hover{
+  background-color: rgba(250, 245, 245, 0.67);
+  opacity: 0.6;
+
+}
+/*#no_select:hover{*/
+/*  background-color: none;*/
+/*  opacity: none;*/
+
+/*}*/
+.para{
+  margin-top:-50px;
+  text-align: justify;
+}
+@media screen and (min-width: 380px){
+  .para {
+    margin-top:-50px;
+    font-size:20px;
+  }
+}
+
+@media screen and  (max-width: 992px){
+  .para {
+    margin-top:-35px;
+    text-size:20px;
+  }
+}
+@media screen and  (max-width: 992px){
+  .icon1  {
+   display:inline-block;
+    text-size:2px;
+    margin-right:0px;
+    margin-left:0px;
+    padding:0px;
+    text-align: center;
+
+  }
+}
+@media screen and (min-width: 375px){
+  #no_select{
+
+  }
+}
+
+#youtube{
+
+  margin:auto;
+  width:50%;
+  padding:10px;
+
+}
+#no_select{
+  margin:auto;
+  width:100%;
+  height:300px;
+  padding-right: -100px;
+  border-radius: 50px;
+}
+@media screen and  (min-width: 250px) and (max-width: 576px){
+  #left_side {
+    display:none;
+  }
 }
