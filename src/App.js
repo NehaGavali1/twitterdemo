@@ -25,7 +25,7 @@ function App() {
       <div className="container-fluid">
           <div className="row">
               <div className="col-sm-2">
-              <iframe srcDoc ="<Left_side></Left_side>"></iframe>
+              <Left_side></Left_side>
 
               </div> {/*col 1 end*/}
 

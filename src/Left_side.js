@@ -18,7 +18,7 @@ function Left_side() {
         <div className="container" id={"left_side"}>
             <div className="row">
                 <div className={"col-sm-2"}>
-                    <div className="row position-fixed " > {/*row start */}
+                    <div className="row" > {/*row start */}
                         <ul type="none">
                             <li><img src={twitter} className="App-logo"/></li>
                             <li> <img src={house} className="App-logo"/></li>
@@ -29,8 +29,9 @@ function Left_side() {
                             <li> <img src={profile} className="App-logo"/></li>
                             <li> <img src={more} className="App-logo"/></li>
                             <li><img src={tweet} className="tweets"/></li>
-                            <li> <img src={account} className="account"/></li>
+                            {/*<li> <img src={account} className="account"/></li>*/}
                         </ul>
+                        <img src={account} className="account"/>
                     </div> {/*row  end*/}
 
                 </div> {/*col 1 end*/}

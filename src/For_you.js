@@ -15,23 +15,24 @@ import w3scube from './icon/w3scube.png';
 function For_you() {
 
     return (
-        <div className="container border">
+        <div className="container border" id={"shift"}>
             <a className="navbar-brand text-start fs-3" href="#"><b>Home</b></a>
             <nav id="navbar-example2" className="navbar bg-body-tertiary">
                 <div className="row w-100 m-auto" >{/* row start*/}
                     <div className="col-sm text-center w-100" id={"hover"}>{/* col start*/}
                         <ul className="nav nav-underline p-1 text-center">
                             <li className="nav-item text-center" >
-                                <a className="nav-link text-center" id={"for"} href="#scrollspyHeading1">For you</a>
+                                <a className="nav-link text-center" id={"for"} >For you</a>
                             </li>
                         </ul>
                     </div>{/* col end*/}
-                    <div className="col-sm text-center w-100"id={"hover"}>{/* col start*/}
-                        <ul className="nav nav-underline p-1">
-                            <li className="nav-item text-center" >
-                                <a className="nav-link" id={"for"} href="#scrollspyHeading2">Following </a>
-                            </li>
-                        </ul>
+                     <div className="col-sm text-center w-100" id={"hover"}>{/* col start*/}
+                    <ul className="nav nav-underline p-1">
+                        <li className="nav-item text-center" >
+                            <a className="nav-link" id={"for"} href="#scrollspyHeading2" href="Following.js">
+                                Following </a>
+                        </li>
+                    </ul>
 
                     </div>{/* col end*/}
                 </div>{/* row end*/}

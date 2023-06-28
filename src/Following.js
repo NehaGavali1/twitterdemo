@@ -15,12 +15,12 @@ import './For_you';
 function Following() {
 
     return (
-        <div className="container-fluid border">
+        <div className="container border">
             <a className="navbar-brand text-start fs-3" href="#"><b>Home</b></a>
-            <nav id="navbar-example2" className="navbar bg-body-tertiary">
+            <nav id="navbar-example2" className="navbar">
                 <div className="row w-100 m-auto" >{/* row start*/}
                     <div className="col-sm text-center w-100" id={"hover"}>{/* col start*/}
-                        <ul className="nav nav-underline p-1">
+                        <ul className="nav nav-underline p-1" id={"underline"}>
                             <li className="nav-item text-center" >
                                 <a className="nav-link" id={"for"} href="#scrollspyHeading1"
                                    href="For_you.js">For you</a>
@@ -30,8 +30,8 @@ function Following() {
                     <div className="col-sm text-center w-100" id={"hover"}>{/* col start*/}
                         <ul className="nav nav-underline p-1">
                             <li className="nav-item text-center" >
-                                <a className="nav-link" id={"for"} href="#scrollspyHeading2"href="Following.js">
-                                    Following </a>
+                                <a className="nav-link" id={"for"} href="#scrollspyHeading2" href="Following.js">
+                                   Following </a>
                             </li>
                         </ul>
 
