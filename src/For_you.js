@@ -16,7 +16,7 @@ function For_you() {
 
     return (
         <div className="container border" id={"shift"}>
-            <a className="navbar-brand text-start fs-3" href="#"><b>Home</b></a>
+            <a className="navbar-brand text-start fs-3 " href="#"><b>Home</b></a>
             <nav id="navbar-example2" className="navbar bg-body-tertiary">
                 <div className="row w-100 m-auto" >{/* row start*/}
                     <div className="col-sm text-center w-100" id={"hover"}>{/* col start*/}
@@ -67,6 +67,7 @@ function For_you() {
             <div className="col text-info text-center ">show 56 Tweets</div>
             <hr/>
             <div id={"select"} >
+                <div>
                 <div className="clearfix">
                     <img src={twitter} className="flipkart"/>
                     <div id={"inline"}><b>flipkartsupport</b>&nbsp;
@@ -104,8 +105,10 @@ function For_you() {
                     </div>
                 </div>
             </div>
+            </div>
             {/*second flipkart*/}
             <div id={"select"}>
+                <div>
                 <div className="clearfix">
                     <img src={w3scube} className="flipkart"/>
                     <div id={"inline"}><b>w3scube update</b>&nbsp;
@@ -139,6 +142,7 @@ function For_you() {
                         </ul>
 
                     </div>
+                </div>
 
                 </div>
                 {/*  container end*/}

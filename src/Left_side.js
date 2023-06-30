@@ -31,7 +31,7 @@ function Left_side() {
                             <li><img src={tweet} className="tweets"/></li>
                             {/*<li> <img src={account} className="account"/></li>*/}
                         </ul>
-                        <img src={account} className="account"/>
+
                     </div> {/*row  end*/}
 
                 </div> {/*col 1 end*/}
@@ -51,10 +51,10 @@ function Left_side() {
 
             </div> {/* main row end*/}
 
-
+            <div>
+                <div className={"col"}> <img src={account} className="account"/></div>
+            </div>
         </div>
-
-
 
     );
 }

@@ -40,7 +40,7 @@ function Following() {
             </nav>
 
             <div className="container">
-                <div className="col-sm-6 w-100 border">
+                <div className="col-sm-6 w-100 ">
                     <form className="input" role="search">
                         <img src={account} className="account"/>
                         <input className="input" type="text" placeholder="what is happening!?">
@@ -50,14 +50,14 @@ function Following() {
             </div>
                     <br/><br/><br/><br/>
                 <div className="container">
-                    <div className="col-sm-6 w-100 border">
+                    <div className="col-sm-6 w-100 ">
                     <ul className="icon">
                         <i className="bi bi-card-image" id={"image"}></i>
                         <i className="bi bi-card-image" id={"image"}></i>
                         <i className="bi bi-card-image" id={"image"}></i>
                         <i className="bi bi-emoji-smile" id={"image"}></i>
                         <i className="bi bi-geo-alt" id={"image"}></i>
-                        <i><button type="button" className="btn btn-info text-white  fs-6 rounded-pill " id={"button"}>Tweet</button></i>
+                        <i><button type="button" className="btn btn-info text-white  fs-6 rounded-pill" id={"button"}>Tweet</button></i>
 
                     </ul>
 
@@ -69,6 +69,7 @@ function Following() {
             <div className="col text-info text-center ">show 56 Tweets</div>
             <hr/>
             <div id={"select"} >
+                <div>
                 <div className="clearfix">
                     <img src={twitter} className="flipkart"/>
                     <div id={"inline"}><b>flipkartsupport</b>&nbsp;
@@ -86,10 +87,12 @@ function Following() {
 
                 <div className="col-sm-6 w-75 m-auto shadow-lg" id="youtube">
                     <iframe  src="https://www.youtube.com/embed/MR57iRokbiQ"
-                            title="YouTube video player" frameBorder="0" id={"no_select"} className="rounded-3"
+                            title="YouTube video player" frameBorder="0" id="no_select" className="rounded-3"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen></iframe>
+
                 </div>
+
 
                 {/*container start*/}
                 <div className="container">
@@ -104,8 +107,10 @@ function Following() {
                     </div>
                 </div>
             </div>
+            </div>
             {/*second flipkart*/}
             <div id={"select"}>
+                <div>
                 <div className="clearfix">
                     <img src={w3scube} className="flipkart"/>
                     <div id={"inline"}><b>w3scube update</b>&nbsp;
@@ -139,6 +144,7 @@ function Following() {
                         </ul>
 
                     </div>
+                </div>
 
                 </div>
                 {/*  container end*/}
